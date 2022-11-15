@@ -1,5 +1,6 @@
 """Helper functions to compute gradients and isothermas for the
 `isa_atmosphere` script"""
+import numpy as np
 from math import exp
 
 from constants import GRAVITY, AIR_GAS_CONSTANT
